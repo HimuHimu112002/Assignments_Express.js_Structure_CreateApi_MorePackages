@@ -3,11 +3,11 @@ async function productControllercreate (req, res) {
 }
 
 async function productControllerread (req, res) {
-    res.status(204).json({ status: 'red', data: 'productControllerread API'});
+    res.status(202).json({ status: 'red', data: 'productControllerread API'});
 }
 
 async function productControllerdelete (req, res) {
-    res.status(204).json({ status: 'delete', data: 'productControllerdelete API' });
+    res.status(202).json({ status: 'delete', data: 'productControllerdelete API' });
 }
 
 async function productControllerupdate (req, res) {

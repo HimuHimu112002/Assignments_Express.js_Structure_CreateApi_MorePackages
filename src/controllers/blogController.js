@@ -3,11 +3,11 @@ async function blogControllerCreate(req, res) {
 }
 
 async function blogControllerread(req, res) {
-    res.status(204).json({ status: 'red', data: 'blogControllerread Rest API' });
+    res.status(202).json({ status: 'red', data: 'blogControllerread Rest API' });
 }
 
 async function blogControllerdelete(req, res) {
-    res.status(204).json({ status: 'delete', data: 'blogControllerdelete Rest API' });
+    res.status(202).json({ status: 'delete', data: 'blogControllerdelete Rest API' });
 }
 
 async function blogControllerupdate(req, res) {

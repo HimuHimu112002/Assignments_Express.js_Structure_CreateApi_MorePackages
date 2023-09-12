@@ -7,11 +7,11 @@ async function commentControllerread(req, res) {
 }
 
 async function commentControllerdelete(req, res) {
-    res.status(204).json({ status: 'delete', data: 'commentControllerdelete API' });
+    res.status(202).json({ status: 'delete', data: 'commentControllerdelete API' });
 }
 
 async function commentControllerupdate(req, res) {
-    res.status(200).json({ status: 'update', data: 'commentControllerupdate API' });
+    res.status(202).json({ status: 'update', data: 'commentControllerupdate API' });
 }
 
 module.exports = {commentControllercreate,commentControllerread,commentControllerdelete,commentControllerupdate}

@@ -3,11 +3,11 @@ async function portfolioControllercreate (req, res) {
 }
 
 async function portfolioControllerread (req, res) {
-    res.status(204).json({ status: 'red', data: 'portfolioControllerread API' });
+    res.status(202).json({ status: 'red', data: 'portfolioControllerread API' });
 }
 
 async function portfolioControllerdelete (req, res) {
-    res.status(204).json({ status: 'delete', data: 'portfolioControllerdelete API' });
+    res.status(202).json({ status: 'delete', data: 'portfolioControllerdelete API' });
 }
 
 async function portfolioControllerupdate (req, res) {
