@@ -6,7 +6,7 @@ router.use("/api/v1",routerApi)
 
 // route vul hoile akhan theke error dibe
 router.use('*', (req, res)=>{
-    res.send("This api is not found please try again")
+    res.status(404).send('404 - Not Found');
 })
 
 
